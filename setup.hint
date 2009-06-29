@@ -1,5 +1,5 @@
 category: Gnome Net
-requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libX11_6 libintl8 libpurple pango pidgin
+requires: glib2 gdk-pixbuf2 gtk2-x11 libX11_6 libintl8 libpurple pango pidgin
 sdesc: "Pidgin popup notification plugin"
 ldesc: "Guifications is a Pidgin plugin that displays 'toaster' popups 
 in a user-defined corner of the screen, similar to features that have 
