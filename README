@@ -8,31 +8,31 @@ configurable, easy to use, and has theme support. It really is the
 end-all, be-all toaster pop-up plugin for Pidgin!
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  gdk-pixbuf2-2.12.9-1
-  glib2-2.14.6-1
-  gtk2-x11-2.12.9-1
-  libX11_6-1.1.3-1
-  libintl8-0.15-1
-  libpurple-2.4.2-1
-  pango-1.18.4-1
-  pidgin-2.4.2-1
+  cygwin-1.7.0-50
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libintl8-0.17-11
+  libpango1.0_0-1.24.2-1
+  libpurple0-2.5.8-1
+  libX11_6-1.2-10
+  pidgin-2.5.8-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.10-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gettext-devel-0.15-1
-  glib2-devel-2.14.6-1
-  gnome-common-2.20.0-1
-  intltool-0.36.3-1
-  libtool-2.2.2-2
-  make-3.81-1
-  pkg-config-0.21-1
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  binutils-20080624-2
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gettext-devel-0.17-11
+  gnome-common-2.26.0-2
+  intltool-0.40.6-1
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -60,13 +60,12 @@ Files included in the binary package:
 
   /usr/lib/pidgin/guifications.dll
   /usr/lib/pidgin/guifications.la
-  /usr/share/doc/pidgin-guifications-2.16/AUTHORS
-  /usr/share/doc/pidgin-guifications-2.16/COPYING
-  /usr/share/doc/pidgin-guifications-2.16/ChangeLog
-  /usr/share/doc/pidgin-guifications-2.16/INSTALL
-  /usr/share/doc/pidgin-guifications-2.16/NEWS
-  /usr/share/doc/pidgin-guifications-2.16/README
-  /usr/share/doc/pidgin-guifications-2.16/TODO
+  /usr/share/doc/pidgin-guifications/AUTHORS
+  /usr/share/doc/pidgin-guifications/COPYING
+  /usr/share/doc/pidgin-guifications/ChangeLog
+  /usr/share/doc/pidgin-guifications/NEWS
+  /usr/share/doc/pidgin-guifications/README
+  /usr/share/doc/pidgin-guifications/TODO
   /usr/share/locale/bn/LC_MESSAGES/guifications.mo
   /usr/share/locale/cs/LC_MESSAGES/guifications.mo
   /usr/share/locale/de/LC_MESSAGES/guifications.mo
@@ -127,8 +126,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.16-1 -----
-Initial release for Cygwin.
+----- version 2.16-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
