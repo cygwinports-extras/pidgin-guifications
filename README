@@ -8,29 +8,29 @@ configurable, easy to use, and has theme support. It really is the
 end-all, be-all toaster pop-up plugin for Pidgin!
 
 Runtime requirements:
-  cygwin-1.7.0-50
-  libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.2-1
-  libglib2.0_0-2.20.3-1
-  libgtk2.0_0-2.16.2-1
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libgdk_pixbuf2.0_0-2.16.6-1
+  libglib2.0_0-2.20.5-1
+  libgtk2.0_0-2.16.6-1
   libintl8-0.17-11
-  libpango1.0_0-1.24.2-1
-  libpurple0-2.5.8-1
-  libX11_6-1.2-10
-  pidgin-2.5.8-1
+  libpango1.0_0-1.24.5-1
+  libpurple0-2.6.2-1
+  libX11_6-1.2.2-1
+  pidgin-2.6.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
   automake1.9-1.9.6-10
-  binutils-20080624-2
-  cygport-0.9.7-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
   gettext-devel-0.17-11
   gnome-common-2.26.0-2
   intltool-0.40.6-1
-  libtool-2.2.7a-13
+  libtool-2.2.7a-14
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -56,75 +56,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/pidgin/guifications.dll
-  /usr/lib/pidgin/guifications.la
-  /usr/share/doc/pidgin-guifications/AUTHORS
-  /usr/share/doc/pidgin-guifications/COPYING
-  /usr/share/doc/pidgin-guifications/ChangeLog
-  /usr/share/doc/pidgin-guifications/NEWS
-  /usr/share/doc/pidgin-guifications/README
-  /usr/share/doc/pidgin-guifications/TODO
-  /usr/share/locale/bn/LC_MESSAGES/guifications.mo
-  /usr/share/locale/cs/LC_MESSAGES/guifications.mo
-  /usr/share/locale/de/LC_MESSAGES/guifications.mo
-  /usr/share/locale/en_AU/LC_MESSAGES/guifications.mo
-  /usr/share/locale/en_GB/LC_MESSAGES/guifications.mo
-  /usr/share/locale/es/LC_MESSAGES/guifications.mo
-  /usr/share/locale/fr/LC_MESSAGES/guifications.mo
-  /usr/share/locale/gl/LC_MESSAGES/guifications.mo
-  /usr/share/locale/he/LC_MESSAGES/guifications.mo
-  /usr/share/locale/hu/LC_MESSAGES/guifications.mo
-  /usr/share/locale/it/LC_MESSAGES/guifications.mo
-  /usr/share/locale/ja/LC_MESSAGES/guifications.mo
-  /usr/share/locale/mk/LC_MESSAGES/guifications.mo
-  /usr/share/locale/nl/LC_MESSAGES/guifications.mo
-  /usr/share/locale/no/LC_MESSAGES/guifications.mo
-  /usr/share/locale/pt/LC_MESSAGES/guifications.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/guifications.mo
-  /usr/share/locale/ru/LC_MESSAGES/guifications.mo
-  /usr/share/locale/sk/LC_MESSAGES/guifications.mo
-  /usr/share/locale/sr/LC_MESSAGES/guifications.mo
-  /usr/share/locale/sr@Latn/LC_MESSAGES/guifications.mo
-  /usr/share/locale/sv/LC_MESSAGES/guifications.mo
-  /usr/share/locale/uk/LC_MESSAGES/guifications.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/guifications.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/guifications.mo
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_big.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_huge.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_large.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_little.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_normal.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_small.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_icon_size_tiny.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_center.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_east.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_north.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_north_east.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_north_west.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_south.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_south_east.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_south_west.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_position_west.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_text_clipping_ellipsis_end.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_text_clipping_ellipsis_middle.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_text_clipping_ellipsis_start.png
-  /usr/share/pixmaps/pidgin/guifications/conf/item_text_clipping_truncate.png
-  /usr/share/pixmaps/pidgin/guifications/conf/window_position_north_east.png
-  /usr/share/pixmaps/pidgin/guifications/conf/window_position_north_west.png
-  /usr/share/pixmaps/pidgin/guifications/conf/window_position_south_east.png
-  /usr/share/pixmaps/pidgin/guifications/conf/window_position_south_west.png
-  /usr/share/pixmaps/pidgin/guifications/themes/Penguins/penguin.png
-  /usr/share/pixmaps/pidgin/guifications/themes/Penguins/theme.xml
-  /usr/share/pixmaps/pidgin/guifications/themes/default/background.png
-  /usr/share/pixmaps/pidgin/guifications/themes/default/theme.xml
-  /usr/share/pixmaps/pidgin/guifications/themes/mini/background.png
-  /usr/share/pixmaps/pidgin/guifications/themes/mini/theme.xml
-
-------------------
-
 Port Notes:
+
+----- version 2.16-11 -----
+Rebuilt for Pidgin 2.6.
 
 ----- version 2.16-10 -----
 Initial release for Cygwin 1.7.
