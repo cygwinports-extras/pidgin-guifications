@@ -1,0 +1,14 @@
+inherit gnome2
+
+NAME="pidgin-guifications"
+VERSION=2.16
+RELEASE=11
+CATEGORY="Net"
+SUMMARY="Pidgin popup notification plugin"
+DESCRIPTION="Guifications is a Pidgin plugin that displays 'toaster' popups in
+a user-defined corner of the screen.  It's highly configurable, easy to use,
+and has theme support. It really is the end-all, be-all toaster pop-up plugin
+for Pidgin."
+HOMEPAGE="http://www.guifications.org/trac/"
+SRC_URI="https://bitbucket.org/rw_grim/guifications2/downloads/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="2.16-no-undefined.patch"
